@@ -46,7 +46,7 @@ class _AccountEditScreenState extends State<AccountEditScreen> {
                   IconButton(
                     icon: const Icon(Icons.copy, size: 18),
                     onPressed: () {
-                      // TODO: copy ID
+
                     },
                   ),
                 ],

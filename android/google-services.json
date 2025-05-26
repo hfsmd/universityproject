@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "149050902582",
+    "project_id": "projectjava-fb9d8",
+    "storage_bucket": "projectjava-fb9d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149050902582:android:053fc1924004146f8e3097",
+        "android_client_info": {
+          "package_name": "com.example.avaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdy5L-2qsnhzaJJxc_Lii98lFLrCqxtXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
