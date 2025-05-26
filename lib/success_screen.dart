@@ -26,7 +26,13 @@ class SuccessScreen extends StatelessWidget {
             const Text('Вы можете найти билет в разделе "Мои билеты"'),
             const SizedBox(height: 12),
             ElevatedButton(
-              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_)=>MainPage())),
+              onPressed: () {
+                Navigator.pushAndRemoveUntil(
+                  context,
+                  MaterialPageRoute(builder: (_) => MainPage()),
+                      (route) => false,
+                );
+              },
               style: ElevatedButton.styleFrom(padding: const EdgeInsets.all(16)),
               child: const Text('На Главный Экран'),
             ),
