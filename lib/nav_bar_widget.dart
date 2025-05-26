@@ -18,7 +18,7 @@ class _NavBarWidget extends State<NavBarWidget> {
   final List<Widget> _screens = [
     MainPage(), // твоя главная страница
     EventCategoryScreen(), // экран категорий
-    EventListScreen(), // можно заменить на реальные экраны
+    EventListScreen(),
     CalendarPage(),
     AccountScreen(),
   ];
